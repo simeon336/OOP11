@@ -4,7 +4,7 @@ using namespace std;
 manager::manager(){
     setId(0);
     setName("");
-    level = 0;
+    this->level = 0;
 }
 
 int manager::getLevel() const{
@@ -13,4 +13,8 @@ int manager::getLevel() const{
 
 void manager::print()const{
     cout << "Id: " << getId() << "Name: " << getName() << "Level: " << getLevel() << endl;
+}
+
+void manager::sayHello(){
+    cout << "Hello i am manager." << endl;
 }

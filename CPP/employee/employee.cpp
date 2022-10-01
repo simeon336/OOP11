@@ -31,3 +31,7 @@ void employee::setName(const string& name){
 void employee::print()const{
     cout << "Id: " << getId() << "Name: " << getName() << endl;
 }
+
+void employee::sayHello(){
+    cout << "hello" << endl;
+}

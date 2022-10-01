@@ -3,6 +3,7 @@
 
 #include <string>
 using std::string;
+#include "human.hh"
 
 class employee{
     private:
@@ -18,6 +19,7 @@ class employee{
         void setId(const int &id);
         void setName(const string &name);
         virtual void print()const;
+        virtual void sayHello();
 };
 
 #endif

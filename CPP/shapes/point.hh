@@ -8,6 +8,8 @@ class Point{
     int y;
 
     public:
+        Point();
+        Point(const int &x, const int &y);
         int getX()const;
         int getY()const;
         void setX(int x);

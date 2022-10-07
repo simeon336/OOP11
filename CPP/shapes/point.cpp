@@ -1,5 +1,11 @@
 #include "point.hh"
 
+Point::Point() {}
+
+Point::Point(const int &x, const int &y){
+    this->x = x;
+    this->y = y;
+}
 int Point::getX()const{
     return this->x;
 }
